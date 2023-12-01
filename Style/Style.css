@@ -95,7 +95,7 @@ body {
 .links-pessoais > ul{
   display: flex;
   align-items: stretch;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 img {
@@ -122,6 +122,15 @@ a {
 }
 
 .pubs {
+  padding-top: 20px;
+  margin-right: 15%;
+}
+
+.outros {
+  padding-top: 20px;
+}
+
+.outros1 {
   padding-top: 20px;
 }
 
