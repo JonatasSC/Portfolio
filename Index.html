@@ -4,46 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="Style/Style.css">
     <title>Portifolio - Jonatas</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+    </style>
 </head>
 
-  <body>
-    <div class="main-column">
-      <div class="content">
-        <header class="nav">
-         <h3>
-            Jonatas S. Conceição
-         </h3>
+<body>  
+    <div class="coluna-principal">
+      <div class="conteudo">
+        <header class="cabeçalho">
+         <h2 class="Titulo"> Jonatas S. Conceição </h2>
+         
+          <nav class="menu"> 
+            <ul>
 
+              <li>
+                <a href="#sobre">
+                  <font color="#e8590c">
+                     <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Sobre mim</font>
+                      </font>
+                  </font>
+                </a>
+              </li>
+
+              <li>
+                <a href="#outros">
+                  <font color="#e8590c">
+                     <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">outros</font>
+                      </font>
+                  </font>
+                </a>
+              </li>
+
+              <li>
+                <a href="#projetos">
+                  <font color="#e8590c">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Projetos</font>
+                    </font>
+                  </font>
+                </a>
+              </li>
+
+              <li>
+                <a href="#Publicações">
+                  <font color="e8590c">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Publicações</font>
+                    </font>
+                  </font>
+                </a>
+              </li>
+
+            </ul>
+          </nav>
         </header>
-        <section class="profile" id="Home">
-         <div class="ProfileImageContainer">
-          <img class="Profilepic" src="image/profile.png" alt="Profile Image">
-         </div>
 
-         <div class="Profiletext">
-            <h3>
-                Who I'm
-            </h3>
+        <div class="apresentação">
+          <div class="picprofile">
+            <img src="image/profile.png" alt="Profile pic jon">
+          </div>
 
-            <p>
-              A student of sciencie of computing in the institution anhanguera
-              actually in the 4° semester. With less bagage of knowloge of discret math 
-            </p>
+          <div align="middle" style="margin-bottom: 10px;">
+                  <!--- Blog --->
+                <a href="https://jonatassc.github.io/PB/" style="margin-right: 14px;">
+                  <i class="Blog" style="font-size: 32px;"></i>
+                </a>
+                <!--- Git --->
+                <a href="https://github.com/JonatasSC/" style="margin-right: 14px;">
+                  <i class="fa fa-github" style="font-size: 32px;"></i>
+                </a>
+              <!--- Linkedin --->
+              <a href="https://www.linkedin.com/in/jhowatassc/" style="margin-right: 14px;">
+                <i class="ai ai-linkedin" style="font-size: 32px;"></i>
+              </a>
+              <br>
+              <br>
+          </div>
 
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis odit architecto, aperiam ullam ut in non. Provident aut molestiae vitae nulla rem, ipsum dignissimos in, eos voluptate exercitationem ipsam. Aliquam?
-            </p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis odit architecto, aperiam ullam ut in non. Provident aut molestiae vitae nulla rem, ipsum dignissimos in, eos voluptate exercitationem ipsam. Aliquam?
-            </p>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis odit architecto, aperiam ullam ut in non. Provident aut molestiae vitae nulla rem, ipsum dignissimos in, eos voluptate exercitationem ipsam. Aliquam?
-            </p>
-       </section>
-    </div>    
-  </div>  
+          <div class="auto-descrição">
+            <h2 class="subcabeçalho" id="Sobre">About Me</h2>
+              <p class="inner-text">
+                Me chamo Jonatas, e sou um estudante dedicado a Ciência da Computação. Neste espaço, compartilho as experiências, desafios e conquistas que marcaram meu percurso educacional. Ao longo deste último ano, mergulhei nas complexidades do conhecimento, buscando constantemente expandir minhas habilidades e visão de mundo.
+              </p>
+
+            <div class="links-pessoais">
+              <ul>
+                <li><a href="https://jonatassc.github.io/PB/">Blog</a></li> |<br>
+                <li><a href="https://githube.com/JonatasSC/">GitHub</a></li> |<br>
+                <li><a href="https://linkedin/Jhowatassc">LinkedIn</a></li> | <br>
+                <li><a href="pdfs/Jonatas S..pdf">CV</a></li>
+              </ul>
+            </div>
+
+          </div>  
+       </div>
+
+        <div class="atualmente" id="outros">
+          <h2 class="atualmenteT">Atualização</h2>
+         <ul>
+           <li>2018 - Conclui a Etec</li>
+           <li>2022 - Iniciei minha graduação em Ciencia da Computação</li>
+           <li>Nov 2023 - Publiquei meu primeiro artigo</li>
+         </ul>
+        </div>
+     
+        <div class="pubs" id="Publicações">
+          <h2>Destaques</h2>
+          <h3>Projetos Acadêmicos:</h3>
+          <p>
+            No meu primeiro artigo publicado tive o prazer de ser orientado pelo professor <a href="https://efurlanm.github.io/">Eduardo Furlan</a> cujo os ensinamentos forão de grande ajuda tanto para o desenvolvimento do projeto quanto para o desenvolvimento pessoal e profissional.        
+            Dando asas à criatividade com a plataforma Arduino foi um grande marco na minha historia academica, pelo fato de me tirar da zona de conforto e me fazer criar autonomia   <br> 2023 - Artigo publicado no <a href="https://eac.pgsscogna.com.br/anais/edicao-ano.php?ano=2023">26° encontro deatividades científicas</a> 
+          </p>
+        </div>
+
+
+    </div>  
 </body>
 </html
