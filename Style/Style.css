@@ -45,8 +45,7 @@ body {
 
 .menu > ul {
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .menu > ul > li {
@@ -75,8 +74,8 @@ body {
 }
 
 .picprofile {
-  width: 34%;
-  max-width: 290px;
+  width: 30%;
+  max-width: 280px;
   padding-top: 30px;
 }
   
@@ -126,6 +125,15 @@ a {
 
 .atualmente > ul {
   font-weight: 300;
+  list-style-type: square;
+  margin-left: 2%;
+}
+
+.habilits {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.habilits > ul {
   list-style-type: square;
   margin-left: 2%;
 }
